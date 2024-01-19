@@ -1,0 +1,368 @@
+body{
+    background-color: #000;
+    color: white;
+    max-width:fit-content;
+    margin-left: 10%;
+}
+a:link,
+a:hover{
+    color: blue;
+}
+
+a{
+    list-style: none;
+}
+
+a:visited{
+    color: aqua;
+}
+
+div nav#navbar ul li {
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+
+}
+
+li#first{
+    position: relative;
+    left: 200px;
+
+}
+
+li#second{
+    position: relative;
+    left: 400px;
+    height: 100%;
+}
+
+li#third{
+    position: relative;
+    left: 600px;
+    height: 100%;
+}
+
+nav#navbar ul li a{
+    font-size : 300%;
+    color: #00ff08;
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 100%;
+}
+
+#aboutus h1{
+    position: relative;
+    left: 100px;
+    font-size: 200%;
+    height: 100%;
+}
+
+#aboutus p{
+    width: 700px;
+    font-size: 150%;
+    margin-left: 100px;
+    height: 100%;
+    height: 100%;
+}
+
+#aboutus img{
+    position: relative;
+    left: 880px;
+    top: -200px;
+    height: 100%;
+}
+
+#meetSquad h1{
+    position: relative;
+    font-size: 200%;
+    left: 80px;
+    top: -100px;
+    height: 100%;
+}
+
+#meetSquad p {
+    width: 400px;
+    margin-top: -100px;
+    font-size: 150%;
+    margin-left: 1%;
+    height: 100%;
+}
+
+#ourMission h1{
+    position: relative;
+    font-size: 200%;
+    left: 620px;
+    top: -580px;
+    height: 100%;
+}
+
+#ourMission p{
+    position: relative;
+    width: 400px;
+    font-size: 150%;
+    margin-left: 1%;
+    left: 520px;
+    top: -580px;
+    height: 100%;
+}
+#ourMission img{
+    position: relative;
+    left: 520px;
+    top: -520px;
+    height: 100%;
+}
+
+#forFun h1{
+    position: relative;
+    font-size: 200%;
+    left: 1120px;
+    top: -1165px;
+    height: 100%;
+}
+
+#forFun p{
+    position: relative;
+    width: 400px;
+    font-size: 150%;
+    margin-left: 1%;
+    left: 1020px;
+    top: -1165px;
+    height: 100%;
+}
+
+footer nav#navbar ul li{
+    list-style: none;
+    height: 100%;
+}
+
+#forFun img{
+    position: relative;
+    left: 1020px;
+    top: -1080px;
+    height: 100%;
+}
+
+li#firstfoot{
+    position: relative;
+    top: -1000px;
+    left: 200px;
+    height: 100%;
+}
+
+li#secondfoot{
+    position: relative;
+    top: -1055px;
+    left: 550px;
+    height: 100%;
+}
+
+li#thirdfoot{
+    position: relative;
+    top: -1110px;
+    left: 980px;
+    height: 100%;
+}   
+
+a:visited,
+a:link{
+    color:blue;
+    height: 100%;
+}
+
+a:hover,
+a:focus{
+    color: blue;
+    height: 100%;
+}
+
+/*CSS For Service*/
+
+main div ul li {
+    list-style: none;
+
+}
+
+#service{
+    color: #00ff08;
+    position: relative;
+    left: 350px;
+    font-size: 200%;
+
+}
+
+main div ul li h2{
+    color: #00ff08;
+    font-size: 200%;
+
+}
+
+#Community{
+    position: relative;
+    left: 450px;
+    top: -355px;
+
+}
+
+#Community img{
+    position: relative;
+    left: 50px;
+    top: 20px;
+
+}
+
+#Prevention{
+    position: relative;
+    left: 1000px;
+    top: -830px;
+
+}
+
+#analysis{
+    position: relative;
+    top: -780px;
+}
+
+#conflict{
+    position: relative;
+    left: 1000px;
+    top: -1350px;
+
+}
+
+h3{
+    color: #00ff08;
+    font-size: 300%;
+    position: relative;
+    top: -1200px;
+    width: 1600px;
+}
+
+#ek{
+    position:relative;
+    top: -1210px;
+    left: 200px;
+
+}
+
+#dui{
+    position: relative;
+    top: -1265px;
+    left: 560px;
+
+}
+
+#tin{
+    position: relative;
+    top: -1320px;
+    left: 975px;
+
+}
+
+/* contact page html*/
+#ekla{
+    position:relative;
+    top: -300px;
+    left: 200px;
+    
+}
+
+#duila{
+    position: relative;
+    top: -355px;
+    left: 555px;
+    
+}
+
+#tinla{
+    position: relative;
+    top: -410px;
+    left: 970px;
+    height: 100%;
+}
+
+main div ul li label{
+    color: #00ff08;
+    font-size: 200%;
+    height: 100%;
+}
+
+#fullname{
+    margin-left: 75px;
+    margin-top: 55px;
+    height: 100%;
+}
+
+#address{
+    margin-left: 107px;
+    margin-top: 50px;
+    height: 100%;
+}
+
+#phone{
+    margin-left: 20px;
+    margin-top: 50px;
+    height: 100%;
+}
+
+#email{
+    margin-left: 137px;
+    margin-top: 50px;
+}
+
+#sub{
+    margin-left: 115px;
+    margin-top: 50px;
+    height: 100%;
+}
+
+#dm{
+    margin-left: 100px;
+    margin-top: 50px;
+    height: 100%;
+}
+
+/* Error Styles */
+
+.error {
+	color: red;
+}
+
+.shippingError {
+	margin-left: 110px;
+}
+
+/* End of Error Styles 8?
+
+/* Submit Button */
+#submit{
+    position: relative;
+    left: 350px;
+}
+
+#clear{
+    position: relative;
+    left: -30px;
+}
+
+#submit,
+#clear {
+	height: 36px;
+    background-color: #000;
+	color: #00ff08;
+	margin-top: 8px;
+	font-size: 16px;
+}
+
+#oka{
+    color: #00ff08;
+    font-size: 500%;
+}
+
+#map-container {
+    height: 400px;
+    width: 100%;
+
+    position: relative;
+    left: 600px;
+    top: -430px;
+}

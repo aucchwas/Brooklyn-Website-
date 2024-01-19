@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Brooklyn Nine-Nine</title>
+		<link rel="stylesheet" href="style.css" />
+        <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPyOdSrIZOMwV064clN0CzxuJ_lPZ2H0E&callback=console.debug&libraries=maps,marker&v=beta">
+        </script>
+        <script src="js/formValidate.js"></script>
+	</head>
+<body>
+    <header>
+		<div>
+			<nav id="navbar">
+				<ul >
+					<li id="first">
+						<a href="index.html">Home</a>
+					</li>
+					<li id="second">
+						<a href="service.html">Services</a>
+					</li>
+					<li id="third">
+						<a href="contact.html">Contact Us</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+    <main>
+        <form id="form" action="submit.html">
+            <div>
+                <ul>
+                    <li>
+                        <label for="fullname">Full Name</label>
+                        <input id="fullname" name="fullname" type="text" />
+                        <p class="shippingError error" id="fullname_error">* Required field</p>
+                    </li>    
+                    
+                    <li>
+                        <label for="address">Address</label>
+                        <input id="address" name="address" type="text" />
+                        <p class="shippingError error" id="address_error">* Required field</p>
+                    </li>
+                    
+                    <li>
+                        <label for="phone">Pnone Number</label>
+                        <input id="phone" name="phone" type="text">
+                        <p class="shippingError error" id="phone_error">* Required field</p>
+                        <p class="shippingError error" id="phoneformat_error">* Invalid Phone number</p>
+                    </li>
+    
+                    <li>
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="text" />
+                        <p class="shippingError error" id="email_error">* Required field</p>
+                        <p class="shippingError error" id="emailformat_error">* Invalid email address</p>
+                    </li>
+                    
+                    <li>
+                        <label for="sub">Subject</label>
+                        <input id="sub" name="sub" type="text" />
+                    </li>
+    
+                    <li>
+                        <label for="dm">Message</label>
+                        <input id="dm" name="dm" type="text" />
+                        <p class="shippingError error" id="dm_error">* Required field</p>
+                    </li>
+                </ul>
+                <button type="submit" id="submit">Submit</button>
+                <button type="reset" id="clear">Clear</button>
+            </div>
+        </form>
+
+    </main>
+
+    <section>
+        <div id="map-container">
+            <gmp-map center="40.84409713745117,-73.90042114257812" zoom="14" map-id="DEMO_MAP_ID">
+                <gmp-advanced-marker position="40.84409713745117,-73.90042114257812" title="My location">
+                </gmp-advanced-marker>
+              </gmp-map>
+        </div>
+    </section>
+
+    <footer>
+		<nav id="navbar">
+			<ul >
+				<li id="ekla">
+					<a href="index.html">Home</a>
+				</li>
+				<li id="duila">
+					<a href="service.html">Services</a>
+				</li>
+				<li id="tinla">
+					<a href="contact.html">Contact Us</a>
+				</li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>
